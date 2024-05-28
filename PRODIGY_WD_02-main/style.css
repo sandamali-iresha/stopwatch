@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-image: url("./img1.jpg");
+    background-size: cover;
+
+}
+.heading{
+    color: aliceblue;
+    width: 450px;
+    height: 25px;
+    margin-left: 5%;
+    margin-top: 0.2%;
+    font-size:smaller;
+    font-family: monospace;
+
+}
+.par{
+    color:blanchedalmond;
+    width: 650px;
+    height: 25px;
+    margin-left:57%;
+    margin-top: 5%;
+    position: absolute;
+    font-size:2.5rem;
+    font-family:cursive; 
+    letter-spacing: 0.01em;
+}
+.stopwatch {
+    background-color: black;
+    padding: 20px;
+    border: 5px solid white; 
+    box-shadow: 0 0 50px rgba(230, 215, 82, 0.93);
+    text-align: center;
+    margin-left: 60%;
+    opacity: 0.5;
+    margin-top: 16%;
+    width: 400px;
+}
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.buttons {
+    margin-bottom: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.laps {
+    margin-top: 20px;
+    color: rgb(237, 236, 233);
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+    color: rgb(228, 212, 191);
+}
